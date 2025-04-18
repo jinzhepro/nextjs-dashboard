@@ -1,7 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // 禁用使用 pnpm，强制使用 npm
+  packageManager: 'npm'
 };
 
 export default nextConfig;
